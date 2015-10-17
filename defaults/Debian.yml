@@ -56,7 +56,7 @@ couchbase_server_debian_ee_sha256: 7663881917182712d9d5ed64698e2e568148e5a5ca986
 # their metadata for Ubuntu
 #
 # Default installed version is currently set to:
-# Couchbase Server Community Edition version 3.0.1
+# Couchbase Server Community Edition version 4.0.0
 #
 # Comment out the 4 variables below and uncoment variables for any older
 # version that you wish to install or pass them in as --extra-vars to the
@@ -64,8 +64,12 @@ couchbase_server_debian_ee_sha256: 7663881917182712d9d5ed64698e2e568148e5a5ca986
 #
 #############################################################################
 
-couchbase_server_debian_ce_version: 3.0.1
+couchbase_server_debian_ce_version: 4.0.0
 couchbase_server_debian_ce_package: couchbase-server-community_{{ couchbase_server_debian_ce_version }}-debian7_amd64.deb
 couchbase_server_debian_ce_url: http://packages.couchbase.com/releases/{{ couchbase_server_debian_ce_version }}/{{ couchbase_server_debian_ce_package }}
-couchbase_server_debian_ce_sha256: 5ee5c017c2292c71ff22620d0bbfcc8939dbbf99db7b7a6f63e5874a1903a470
+couchbase_server_debian_ce_sha256: 1fb8961e54b0e4a9d1fc2efc925b82054281abf3c520294311d874e66d78cf6e
 
+# couchbase_server_debian_ce_version: 3.0.1
+# couchbase_server_debian_ce_package: couchbase-server-community_{{ couchbase_server_debian_ce_version }}-debian7_amd64.deb
+# couchbase_server_debian_ce_url: http://packages.couchbase.com/releases/{{ couchbase_server_debian_ce_version }}/{{ couchbase_server_debian_ce_package }}
+# couchbase_server_debian_ce_sha256: 5ee5c017c2292c71ff22620d0bbfcc8939dbbf99db7b7a6f63e5874a1903a470
